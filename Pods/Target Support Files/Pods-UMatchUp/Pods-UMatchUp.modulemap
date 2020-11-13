@@ -1,0 +1,6 @@
+framework module Pods_UMatchUp {
+  umbrella header "Pods-UMatchUp-umbrella.h"
+
+  export *
+  module * { export * }
+}
