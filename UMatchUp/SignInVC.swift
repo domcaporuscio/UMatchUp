@@ -17,9 +17,10 @@ class SignInVC: UIViewController {
 
         emailTextView = UITextView(frame: CGRect(x: 67, y: 200, width: view.frame.width/2, height: 74))
         emailTextView.center = view.center
+        emailTextView.backgroundColor = .orange
         
         view.addSubview(emailTextView)
-        
+        print("test")
     }
     
 
