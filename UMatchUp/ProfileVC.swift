@@ -8,11 +8,23 @@
 import UIKit
 
 class ProfileVC: UIViewController {
+    
+    var nameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Loaded ProfileVC")
-        // Do any additional setup after loading the view.
+        
+        setupNameLabel()
+        
+    }
+    
+    func setupNameLabel() {
+        nameLabel = UILabel(frame: CGRect(x: view.frame.minX, y: view.frame.midY, width: view.frame.width, height: 50))
+        nameLabel.backgroundColor = .orange
+        nameLabel.textAlignment = .center
+        nameLabel.text = "Name Goes Here"
+        view.addSubview(nameLabel)
     }
     
 
