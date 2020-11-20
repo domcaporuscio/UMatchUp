@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2F4B497DDA18BB25A8C800FB /* Pods_UMatchUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE38DBFE2FB285308A3731E /* Pods_UMatchUp.framework */; };
+		5C29967E25674BA80002BB5F /* VoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29967D25674BA70002BB5F /* VoteVC.swift */; };
+		5C29968125674C450002BB5F /* ChallengesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29968025674C450002BB5F /* ChallengesVC.swift */; };
+		5C29968425674C5A0002BB5F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29968325674C5A0002BB5F /* ProfileVC.swift */; };
 		5C36314A2558C06900D1858C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3631492558C06900D1858C /* AppDelegate.swift */; };
 		5C36314C2558C06900D1858C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36314B2558C06900D1858C /* SceneDelegate.swift */; };
 		5C36314E2558C06A00D1858C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36314D2558C06A00D1858C /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		5AE38DBFE2FB285308A3731E /* Pods_UMatchUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMatchUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C29967D25674BA70002BB5F /* VoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteVC.swift; sourceTree = "<group>"; };
+		5C29968025674C450002BB5F /* ChallengesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesVC.swift; sourceTree = "<group>"; };
+		5C29968325674C5A0002BB5F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		5C3631462558C06900D1858C /* UMatchUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMatchUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3631492558C06900D1858C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C36314B2558C06900D1858C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,9 @@
 				5CCD1E1E255E099F004E3F12 /* SignInVC.swift */,
 				5C36314D2558C06A00D1858C /* ViewController.swift */,
 				5C36314F2558C06A00D1858C /* Main.storyboard */,
+				5C29967D25674BA70002BB5F /* VoteVC.swift */,
+				5C29968025674C450002BB5F /* ChallengesVC.swift */,
+				5C29968325674C5A0002BB5F /* ProfileVC.swift */,
 				5C3631522558C06E00D1858C /* Assets.xcassets */,
 				5C3631542558C06E00D1858C /* LaunchScreen.storyboard */,
 				5C3631572558C06E00D1858C /* Info.plist */,
@@ -213,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C36314E2558C06A00D1858C /* ViewController.swift in Sources */,
+				5C29967E25674BA80002BB5F /* VoteVC.swift in Sources */,
+				5C29968425674C5A0002BB5F /* ProfileVC.swift in Sources */,
+				5C29968125674C450002BB5F /* ChallengesVC.swift in Sources */,
 				5C36314A2558C06900D1858C /* AppDelegate.swift in Sources */,
 				5CCD1E1F255E099F004E3F12 /* SignInVC.swift in Sources */,
 				5C36314C2558C06900D1858C /* SceneDelegate.swift in Sources */,

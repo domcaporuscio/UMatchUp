@@ -21,77 +21,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-719" y="175"/>
+            <point key="canvasLocation" x="-691" y="198"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="LQ3-Ac-SfN">
             <objects>
-                <viewController id="S0a-Uf-1ow" sceneMemberID="viewController">
+                <viewController id="S0a-Uf-1ow" customClass="ChallengesVC" customModule="UMatchUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gd7-cF-H8q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6jc-W6-yFg">
-                                <rect key="frame" x="183" y="337" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="2ao-Au-ZD9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="0wQ-Be-Bsg"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="link" catalog="system" id="0wQ-Be-Bsg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rlg-BJ-Lap" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1299" y="1017"/>
+            <point key="canvasLocation" x="1061" y="223"/>
         </scene>
         <!--Item-->
         <scene sceneID="8Fi-RK-Yd2">
             <objects>
-                <viewController id="CR5-4W-zkQ" sceneMemberID="viewController">
+                <viewController id="CR5-4W-zkQ" customClass="ProfileVC" customModule="UMatchUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZQY-SS-NXA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVb-VZ-cRg">
-                                <rect key="frame" x="184" y="328" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="AJK-Ab-UG8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="square.bottomhalf.fill" catalog="system" id="MV1-8u-ngp"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="person.crop.circle" catalog="system" id="MV1-8u-ngp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ssl-k2-kvF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1299" y="-267"/>
+            <point key="canvasLocation" x="1061" y="909"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="Svo-kY-WGv">
             <objects>
-                <viewController id="lxs-7G-M50" sceneMemberID="viewController">
+                <viewController id="lxs-7G-M50" customClass="VoteVC" customModule="UMatchUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VQN-SE-jxS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPk-rc-ZiO">
-                                <rect key="frame" x="186" y="357" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ZEs-Wh-EFP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="KgJ-pl-1ho"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="cursorarrow.square" catalog="system" id="KgJ-pl-1ho"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3I-q8-7ca" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1300" y="370"/>
+            <point key="canvasLocation" x="1062" y="-429"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="FRO-yC-Bjh">
@@ -114,7 +92,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="square.bottomhalf.fill" catalog="system" width="128" height="114"/>
+        <image name="cursorarrow.square" catalog="system" width="128" height="114"/>
+        <image name="link" catalog="system" width="128" height="122"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
